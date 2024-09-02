@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TABLE ACTIVITY</title>
+</head>
+<body bgcolor="beige">
+    <center>
+    <table border="5" width="900" height="500" style="border-collapse: collapse;">
+        <caption style="font-size: xx-large;"><b>Best-Selling Books</b></caption>
+        <!-- heading style  -->
+        <thead style="text-align: center;">
+            <th colspan="2" width="300" height="80" bgcolor="pink" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: x-large;"><b>Title</b></th>
+            <th rowspan="2" bgcolor="skyblue" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: x-large;"><b>Author</b></th>
+            <th rowspan="2" bgcolor="purple" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: x-large;"><b>Price</b></th>
+            <th rowspan="2" bgcolor="brown" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: x-large;"> Links </th>
+        </thead>
+        <!-- first book info -->
+        <tr style="text-align: center;font-size: x-large;">
+            <td colspan="2">Trust Me, I'm Lying: Confessions of a Media</td>
+            <td>Ryan Holiday</td>
+            <td>₱784.00</td>
+            <td> <a href="https://www.fullybookedonline.com/books-social-science-media-studies-trust-me-i-m-lying-confessions-of-a-media-manipulator-paperback-by-ryan-holiday.html" target="bookstore" style="text-decoration: none;">Buy here</a></td>
+        </tr>
+        <!-- second book info  -->
+        <tr style="text-align: center; font-size: x-large;">
+            <td colspan="2">Future Stories: What's Next? (Hardcover)</td>
+            <td>David Christian</td>
+            <td>₱1,650.00</td>
+            <td> <a href="https://www.fullybookedonline.com/book-social-science-future-stories-whats-next-hardcover-by-david-christian.html" target="bookstore" style="text-decoration: none;">Buy here</a></td>
+        </tr>
+        <!-- third book info  -->
+        <tr style="text-align: center; font-size: x-large;">
+            <td colspan="2">Evicted: Poverty and Profit in the American City</td>
+            <td>Matthew Desmond</td>
+            <td>₱1,063.00</td>
+            <td> <a href="https://www.fullybookedonline.com/book-social-science-evicted-poverty-and-profit-in-the-american-city-paperback-by-matthew-desmond.html" target="bookstore" style="text-decoration: none;">Buy here</a></td>
+        </tr>
+        <!-- footer  -->
+        <tr>
+            <td colspan="5" style="text-align:center; font-weight:bold;font-size: x-large;">Total Books: 3</td>
+        </tr>
+    </table>
+    <br>
+
+    <iframe src="https://www.fullybookedonline.com/books/professional/social-science.html?ref=home_mostpopcat_block&sortKey=instock&sortDirection=ASC"
+            name="bookstore"
+            width="800"
+            height="600"
+            sandbox="allow-scripts"
+            scrolling="no"
+            style="border: none;">
+            <p>Preview of Example Bookstore's Website</p>
+    </iframe>
+</center>
+</body>
+</html>
